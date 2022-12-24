@@ -1,0 +1,12 @@
+undertow.devMode=true
+undertow.port=8080
+undertow.host=0.0.0.0
+undertow.resourcePath = src/main/webapp, src/main/resources
+
+undertow.gzip.enable=true
+undertow.gzip.level=4
+undertow.gzip.minLength=102
+
+undertow.session.timeout=1800
+undertow.session.hotSwap=true
+

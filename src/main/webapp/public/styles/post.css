@@ -1,0 +1,13 @@
+#post-category-list li{
+    border-bottom: 1px dotted #d6e0e0;
+    padding-left: 10px;
+}
+
+#post-category-list {
+    width: 700px;
+}
+
+#post-category-list #post-meta{
+    margin-top: 10px;
+    text-align: right;
+}
