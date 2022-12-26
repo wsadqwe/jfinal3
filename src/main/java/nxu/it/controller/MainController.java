@@ -4,19 +4,17 @@ import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
 import com.jfinal.core.Path;
 import com.jfinal.kit.Kv;
+import nxu.it.filter.RequireLogin;
 import nxu.it.pojo.User;
+import nxu.it.pojo.UserInfo;
 import nxu.it.security.Admin;
 import nxu.it.security.Principal;
-import nxu.it.filter.RequireLogin;
-import nxu.it.pojo.UserInfo;
-import nxu.it.security.SecurityUtil;
 import nxu.it.service.UserService;
 
 import java.time.LocalDateTime;
 import java.time.format.TextStyle;
 import java.util.List;
 import java.util.Locale;
-
 
 @Path(value = "/", viewPath = "/")
 public class MainController extends Controller {
